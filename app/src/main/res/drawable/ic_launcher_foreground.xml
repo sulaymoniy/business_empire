@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original mark: a gold coin with a rising three-bar chart. Drawn inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/launcher_gold"
+        android:pathData="M28,54a26,26 0,1 0,52 0a26,26 0,1 0,-52 0z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/launcher_gold_dark"
+        android:strokeWidth="2"
+        android:pathData="M32,54a22,22 0,1 0,44 0a22,22 0,1 0,-44 0z" />
+    <path
+        android:fillColor="@color/launcher_green"
+        android:pathData="M41,58h6v8h-6z M51,51h6v15h-6z M61,43h6v23h-6z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/launcher_green"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,52L50,44L56,47L66,37 M61,37h5v5" />
+</vector>
