@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Business Empire</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- Bottom tabs -->
+    <string name="tab_business">Business</string>
+    <string name="tab_invest">Invest</string>
+    <string name="tab_bank">Bank</string>
+    <string name="tab_assets">Assets</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- Number and time formats -->
+    <string name="money">$%1$s</string>
+    <string name="money_negative">-$%1$s</string>
+    <string name="per_second">%1$s/s</string>
+    <string name="percent">%1$s%%</string>
+    <string name="duration_days_hours">%1$dd %2$dh</string>
+    <string name="duration_hours_minutes">%1$dh %2$02dm</string>
+    <string name="duration_minutes_seconds">%1$dm %2$02ds</string>
+    <string name="duration_seconds">%1$ds</string>
+    <string name="duration_seconds_decimal">%1$.1fs</string>
+
+    <!-- Header -->
+    <string name="header_net_worth">Net worth %1$s</string>
+    <string name="cd_cash_header">Cash %1$s. Income %2$s. Net worth %3$s.</string>
+
+    <!-- Businesses -->
+    <string name="biz_lemonade_stand">Lemonade Stand</string>
+    <string name="biz_food_truck">Food Truck</string>
+    <string name="biz_coffee_shop">Coffee Shop</string>
+    <string name="biz_car_wash">Car Wash</string>
+    <string name="biz_bakery_chain">Bakery Chain</string>
+    <string name="biz_fitness_club">Fitness Club</string>
+    <string name="biz_tech_startup">Tech Startup</string>
+    <string name="biz_boutique_hotel">Boutique Hotel</string>
+    <string name="biz_shipping_company">Shipping Company</string>
+    <string name="biz_regional_airline">Regional Airline</string>
+    <string name="biz_energy_plant">Energy Plant</string>
+    <string name="biz_orbital_launch">Orbital Launch Co.</string>
+
+    <string name="business_page_businesses">Businesses</string>
+    <string name="business_page_upgrades">Upgrades</string>
+    <string name="buy_mode_label">Buy</string>
+    <string name="buy_x1">×1</string>
+    <string name="buy_x10">×10</string>
+    <string name="buy_x100">×100</string>
+    <string name="buy_max">Max</string>
+    <string name="buy_count">Buy ×%1$d</string>
+    <string name="owned_count">×%1$d</string>
+    <string name="per_cycle">%1$s per cycle</string>
+    <string name="status_not_owned">Not owned yet</string>
+    <string name="status_tap_to_run">Tap to run</string>
+    <string name="hire_manager">Hire manager</string>
+    <string name="manager_hired">Automated</string>
+    <string name="milestone_next">Next bonus at %1$d owned: %2$s</string>
+    <string name="milestone_speed">speed ×%1$s</string>
+    <string name="milestone_revenue">profit ×%1$s</string>
+    <string name="notice_milestone">%1$s reached %2$d owned: %3$s!</string>
+    <string name="locked_business_title">A new business awaits</string>
+    <string name="locked_business_hint">Own at least one %1$s to reveal it.</string>
+    <string name="cd_run_business">Run %1$s</string>
+    <string name="cd_buy_for">Buy %1$s for %2$s</string>
+
+    <!-- Upgrades -->
+    <string name="upgrade_business">%1$s profit ×%2$s</string>
+    <string name="upgrade_global">All profits ×%1$s</string>
+    <string name="upgrade_offline">Offline earnings cap +%1$s h</string>
+    <string name="upgrades_empty_title">All caught up</string>
+    <string name="upgrades_empty_body">Buy new businesses to unlock more upgrades.</string>
+
+    <!-- Offline -->
+    <string name="welcome_back_title">Welcome back!</string>
+    <string name="welcome_back_body">You were away for %1$s. Your managers earned %2$s.</string>
+    <string name="welcome_back_capped">Offline earnings are capped at %1$s. Buy upgrades to raise the cap.</string>
+    <string name="collect">Collect</string>
+
+    <!-- Common -->
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="buy_for">Buy for %1$s</string>
+    <string name="per_minute">%1$s/min</string>
+    <string name="cd_back">Back</string>
+
+    <!-- Invest -->
+    <string name="invest_page_stocks">Stocks</string>
+    <string name="invest_page_real_estate">Real estate</string>
+    <string name="portfolio_value">Portfolio value</string>
+    <string name="portfolio_profit">Unrealised P/L %1$s</string>
+    <string name="portfolio_empty">Buy shares to start your portfolio.</string>
+    <string name="market_news">Market news</string>
+    <string name="market_stocks">Stocks</string>
+    <string name="shares_owned">%1$s shares</string>
+    <string name="your_position">Your position</string>
+    <string name="shares">Shares</string>
+    <string name="avg_cost">Average cost</string>
+    <string name="position_value">Value</string>
+    <string name="profit_loss">Profit / loss</string>
+    <string name="quantity">Quantity</string>
+    <string name="max_buy">Max</string>
+    <string name="all_shares">All</string>
+    <string name="chart_avg_cost_hint">Dashed line: your average cost</string>
+    <string name="cd_price_chart">Price chart for %1$s</string>
+    <string name="notice_news_up">%1$s (+%2$s%%)</string>
+    <string name="notice_news_down">%1$s (-%2$s%%)</string>
+
+    <string name="sector_tech">Technology</string>
+    <string name="sector_energy">Energy</string>
+    <string name="sector_health">Healthcare</string>
+    <string name="sector_finance">Finance</string>
+    <string name="sector_consumer">Consumer</string>
+    <string name="sector_industrial">Industrial</string>
+
+    <!-- Fictional companies -->
+    <string name="stock_nimbus_cloud">Nimbus Cloud</string>
+    <string name="stock_quantis_labs">Quantis Labs</string>
+    <string name="stock_solace_energy">Solace Energy</string>
+    <string name="stock_ridgeway_power">Ridgeway Power</string>
+    <string name="stock_verdant_health">Verdant Health</string>
+    <string name="stock_brightfen_bio">Brightfen Bio</string>
+    <string name="stock_ironbridge_capital">Ironbridge Capital</string>
+    <string name="stock_maple_finch">Maple &amp; Finch Foods</string>
+    <string name="stock_pellucid_apparel">Pellucid Apparel</string>
+    <string name="stock_cobalt_rail">Cobalt Rail Works</string>
+
+    <!-- News headlines: %1$s is the company name -->
+    <string name="news_regulators_probe">Regulators probe %1$s</string>
+    <string name="news_misses_earnings">%1$s misses earnings forecast</string>
+    <string name="news_product_recall">%1$s recalls flagship product</string>
+    <string name="news_executive_exits">Top executive leaves %1$s</string>
+    <string name="news_beats_earnings">%1$s beats earnings forecast</string>
+    <string name="news_major_contract">%1$s wins major contract</string>
+    <string name="news_breakthrough">%1$s unveils breakthrough</string>
+    <string name="news_analyst_upgrade">Analysts upgrade %1$s</string>
+
+    <!-- Real estate -->
+    <string name="real_estate_value">Portfolio value</string>
+    <string name="real_estate_rent">Rent income</string>
+    <string name="rent_per_minute">Rent %1$s/min</string>
+    <string name="property_level">Renovation %1$d/%2$d</string>
+    <string name="property_value">Value</string>
+    <string name="renovate_for">Renovate %1$s</string>
+    <string name="renovation_maxed">Fully renovated</string>
+    <string name="prop_studio_flat">Studio Flat</string>
+    <string name="prop_corner_shop">Corner Shop Unit</string>
+    <string name="prop_suburban_house">Suburban House</string>
+    <string name="prop_city_duplex">City Duplex</string>
+    <string name="prop_downtown_loft">Downtown Loft</string>
+    <string name="prop_retail_strip">Retail Strip</string>
+    <string name="prop_apartment_block">Apartment Block</string>
+    <string name="prop_beachfront_villa">Beachfront Villa</string>
+    <string name="prop_business_park">Business Park</string>
+    <string name="prop_office_tower">Office Tower</string>
+    <string name="prop_harbor_marina">Harbor Marina</string>
+    <string name="prop_private_island_resort">Private Island Resort</string>
+
+    <!-- Bank -->
+    <string name="amount">Amount</string>
+    <string name="amount_max">Max</string>
+    <string name="rate_per_minute">%1$s%% per minute</string>
+    <string name="bank_savings">Savings account</string>
+    <string name="bank_interest_rate">Interest rate</string>
+    <string name="bank_interest_earned">Interest earned</string>
+    <string name="bank_deposit">Deposit</string>
+    <string name="bank_withdraw">Withdraw</string>
+    <string name="bank_savings_hint">Savings grow every minute, even while you are away. Cash in savings can’t be spent until you withdraw it.</string>
+    <string name="bank_loan">Loan</string>
+    <string name="bank_available_credit">Available to borrow</string>
+    <string name="bank_repay_within">Repay within</string>
+    <string name="bank_overdue_short">Overdue</string>
+    <string name="bank_overdue">Your loan is overdue. Make a repayment to borrow again.</string>
+    <string name="bank_borrow">Borrow</string>
+    <string name="bank_repay">Repay</string>
+    <string name="bank_loan_hint">You can borrow up to %1$s%% of your net worth. Interest adds up every minute. Any repayment resets the 30-minute timer.</string>
+
+    <!-- Assets -->
+    <string name="owned">Owned</string>
+    <string name="net_worth">Net worth</string>
+    <string name="nw_cash">Cash</string>
+    <string name="nw_businesses">Businesses</string>
+    <string name="nw_properties">Real estate</string>
+    <string name="nw_stocks">Stocks</string>
+    <string name="nw_luxury">Luxury assets</string>
+    <string name="nw_savings">Savings</string>
+    <string name="nw_loans">Loans</string>
+    <string name="luxury_title">Luxury collection (+%1$s%% revenue)</string>
+    <string name="luxury_bonus">+%1$s%% revenue forever</string>
+    <string name="lux_cat_car">Cars</string>
+    <string name="lux_cat_home">Homes</string>
+    <string name="lux_cat_yacht">Yachts</string>
+    <string name="lux_cat_jet">Jets</string>
+    <string name="lux_cat_art">Art</string>
+    <string name="lux_cat_extra">Rare finds</string>
+    <string name="lux_aurora_roadster">Aurora Roadster</string>
+    <string name="lux_strata_gt">Strata Grand Tourer</string>
+    <string name="lux_halberd_hypercar">Halberd Hypercar</string>
+    <string name="lux_meridian_classic">Meridian Classic ’62</string>
+    <string name="lux_lakeside_cabin">Lakeside Cabin</string>
+    <string name="lux_hilltop_mansion">Hilltop Mansion</string>
+    <string name="lux_chateau_belmont">Château Belmont</string>
+    <string name="lux_sky_garden_estate">Sky Garden Estate</string>
+    <string name="lux_day_cruiser">Day Cruiser</string>
+    <string name="lux_coral_mist_yacht">Coral Mist Yacht</string>
+    <string name="lux_leviathan_superyacht">Leviathan Superyacht</string>
+    <string name="lux_swift_light_jet">Swift Light Jet</string>
+    <string name="lux_stratos_long_range">Stratos Long-Range Jet</string>
+    <string name="lux_private_airliner">Private Airliner</string>
+    <string name="lux_abstract_in_teal">“Abstract in Teal”</string>
+    <string name="lux_marble_muse">Marble Muse Sculpture</string>
+    <string name="lux_lost_harbor_masterpiece">“The Lost Harbor” Masterpiece</string>
+    <string name="lux_ancient_star_map">Ancient Star Map</string>
+    <string name="lux_racehorse_stable">Champion Racehorse Stable</string>
+    <string name="lux_lunar_retreat">Lunar Retreat</string>
+
+    <!-- Ranks -->
+    <string name="rank_label">Rank</string>
+    <string name="rank_next">Next: %1$s at %2$s net worth</string>
+    <string name="rank_top">You have reached the top rank.</string>
+    <string name="rank_street_vendor">Street Vendor</string>
+    <string name="rank_shop_owner">Shop Owner</string>
+    <string name="rank_local_entrepreneur">Local Entrepreneur</string>
+    <string name="rank_business_owner">Business Owner</string>
+    <string name="rank_executive">Executive</string>
+    <string name="rank_industrialist">Industrialist</string>
+    <string name="rank_magnate">Magnate</string>
+    <string name="rank_tycoon">Tycoon</string>
+    <string name="rank_mogul">Mogul</string>
+    <!-- General -->
+    <string name="cancel">Cancel</string>
+    <string name="cd_locked">Locked</string>
+    <string name="cd_unlocked">Unlocked</string>
+    <string name="cd_daily_ready">Profile, daily reward ready</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Build your empire</string>
+    <string name="onboarding_body">Start with $50 and a lemonade stand. Grow it into a business empire.</string>
+    <string name="onboarding_ceo">Your name (CEO)</string>
+    <string name="onboarding_ceo_hint">e.g. Sam Rivera</string>
+    <string name="onboarding_company">Company name</string>
+    <string name="onboarding_company_hint">e.g. Rivera Holdings</string>
+    <string name="onboarding_start">Start my empire</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_step">Tip %1$d of %2$d</string>
+    <string name="tutorial_skip">Skip</string>
+    <string name="tutorial_buy_stand">Welcome, CEO! Buy your first Lemonade Stand.</string>
+    <string name="tutorial_tap_stand">Tap the Lemonade Stand card to run it and earn cash.</string>
+    <string name="tutorial_buy_ten">Keep tapping, and grow to 10 Lemonade Stands.</string>
+    <string name="tutorial_hire_manager">Hire a manager so the stand runs by itself, even while you are away.</string>
+    <string name="tutorial_visit_invest">Great work! Open the Invest tab to see stocks and real estate.</string>
+
+    <!-- Profile -->
+    <string name="profile_ceo">CEO: %1$s</string>
+    <string name="profile_rank">Rank: %1$s</string>
+    <string name="daily_title">Daily reward</string>
+    <string name="daily_ready">Day %1$d streak: %2$s waiting for you</string>
+    <plurals name="daily_claimed">
+        <item quantity="one">Claimed today. Streak: %d day. Come back tomorrow!</item>
+        <item quantity="other">Claimed today. Streak: %d days. Come back tomorrow!</item>
+    </plurals>
+    <string name="daily_claim">Claim</string>
+    <string name="notice_daily">Daily reward: %1$s (day %2$d streak)</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_count">%1$d of %2$d unlocked</string>
+    <string name="achievements_bonus">Permanent revenue bonus from achievements: +%1$s</string>
+    <string name="stats_title">Statistics</string>
+    <string name="settings_title">Settings</string>
+    <string name="shop_title">Shop</string>
+    <string name="cheats_title">Debug tools</string>
+    <string name="cheats_subtitle">Debug builds only. For testing balance quickly.</string>
+
+    <!-- Prestige -->
+    <string name="prestige_title">Sell the Empire</string>
+    <string name="prestige_summary">%1$s Legacy Points (+%2$s revenue)</string>
+    <string name="prestige_explain">Sell everything and start again with Legacy Points. Each point permanently adds %1$s to all revenue. Points come from your lifetime earnings, so every run makes the next one faster.</string>
+    <string name="prestige_points_now">Legacy Points</string>
+    <string name="prestige_bonus_now">Current bonus</string>
+    <string name="prestige_points_gain">Points if you sell now</string>
+    <string name="prestige_count">Times sold</string>
+    <string name="prestige_requirement">Unlocks at %1$s net worth. You have %2$s.</string>
+    <string name="prestige_keeps">You keep: Legacy Points, achievements, luxury items, statistics, settings and your daily streak.</string>
+    <string name="prestige_resets">You lose: cash, businesses, managers, upgrades, shares, properties, savings and loans.</string>
+    <string name="prestige_button">Sell the Empire (+%1$s points)</string>
+    <string name="prestige_confirm_title">Sell your empire?</string>
+    <string name="prestige_confirm_body">You will start over with $50 and gain %1$s Legacy Points. This can’t be undone.</string>
+    <string name="prestige_confirm_yes">Sell it all</string>
+    <string name="notice_prestige">Empire sold! +%1$s Legacy Points. A new run begins.</string>
+
+    <!-- Achievements -->
+    <string name="ach_own">Own %1$d × %2$s</string>
+    <string name="ach_earn">Earn %1$s in total</string>
+    <string name="ach_networth">Reach a net worth of %1$s</string>
+    <string name="ach_reward_percent">Reward: +%1$s%% revenue forever</string>
+    <string name="ach_reward_cash">Reward: %1$s min of income in cash</string>
+    <string name="notice_achievement">Achievement: %1$s. %2$s</string>
+    <plurals name="ach_taps">
+        <item quantity="one">Tap a business %d time</item>
+        <item quantity="other">Tap businesses %d times</item>
+    </plurals>
+    <plurals name="ach_managers">
+        <item quantity="one">Hire %d manager</item>
+        <item quantity="other">Have %d managers at once</item>
+    </plurals>
+    <plurals name="ach_properties">
+        <item quantity="one">Own %d property</item>
+        <item quantity="other">Own %d properties at once</item>
+    </plurals>
+    <plurals name="ach_luxury">
+        <item quantity="one">Buy %d luxury item</item>
+        <item quantity="other">Own %d luxury items</item>
+    </plurals>
+    <plurals name="ach_trades">
+        <item quantity="one">Make %d stock trade</item>
+        <item quantity="other">Make %d stock trades</item>
+    </plurals>
+    <plurals name="ach_profit_sells">
+        <item quantity="one">Sell shares at a profit %d time</item>
+        <item quantity="other">Sell shares at a profit %d times</item>
+    </plurals>
+    <plurals name="ach_prestige">
+        <item quantity="one">Sell the empire %d time</item>
+        <item quantity="other">Sell the empire %d times</item>
+    </plurals>
+    <plurals name="ach_streak">
+        <item quantity="one">Claim the daily reward %d day in a row</item>
+        <item quantity="other">Claim the daily reward %d days in a row</item>
+    </plurals>
+    <plurals name="ach_loans">
+        <item quantity="one">Repay %d loan in full</item>
+        <item quantity="other">Repay %d loans in full</item>
+    </plurals>
+    <plurals name="ach_events">
+        <item quantity="one">Handle %d business event</item>
+        <item quantity="other">Handle %d business events</item>
+    </plurals>
+
+    <!-- Statistics -->
+    <string name="stat_lifetime_earnings">Lifetime earnings</string>
+    <string name="stat_run_earnings">Earned this run</string>
+    <string name="stat_best_net_worth">Best net worth</string>
+    <string name="stat_time_played">Time played</string>
+    <string name="stat_taps">Taps</string>
+    <string name="stat_units_bought">Business units bought</string>
+    <string name="stat_managers_hired">Managers hired</string>
+    <string name="stat_stock_trades">Stock trades</string>
+    <string name="stat_events">Events handled</string>
+    <string name="stat_loans_repaid">Loans repaid</string>
+    <string name="stat_interest_earned">Savings interest earned</string>
+    <string name="stat_best_streak">Best daily streak</string>
+    <string name="stat_prestige_count">Empires sold</string>
+    <string name="stat_legacy_points">Legacy Points</string>
+
+    <!-- Settings -->
+    <string name="settings_sound">Sound effects</string>
+    <string name="settings_haptics">Vibration</string>
+    <string name="settings_number_format">Number format</string>
+    <string name="settings_short">Short (1.23B)</string>
+    <string name="settings_scientific">Scientific (1.23e9)</string>
+    <string name="settings_number_example">Example: $%1$s</string>
+    <string name="settings_more">More</string>
+    <string name="settings_reset">Reset game</string>
+    <string name="reset_confirm_title">Reset everything?</string>
+    <string name="reset_confirm_body">This deletes your save, including Legacy Points, achievements and luxury items. This can’t be undone.</string>
+    <string name="reset_confirm_yes">Delete my save</string>
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_body">Business Empire is an idle tycoon game. Grow a lemonade stand into a global empire, invest in stocks and property, and sell it all to start again stronger.</string>
+    <string name="about_fiction">All companies, products, places and people in this game are fictional.</string>
+    <string name="about_privacy">No ads, no accounts, no tracking. The game works fully offline and your save stays on this device.</string>
+
+    <!-- Shop (hidden until the store is enabled) -->
+    <string name="shop_coming_soon">Coming soon</string>
+    <string name="shop_premium">2× income forever</string>
+    <string name="shop_cash_pack">Cash pack</string>
+    <string name="shop_soon">Soon</string>
+
+    <!-- Debug cheats -->
+    <string name="cheat_add_cash_small">Add $1M</string>
+    <string name="cheat_add_cash_x10">Multiply cash by 10</string>
+    <string name="cheat_skip_hour">Skip 1 hour (offline earnings, no cap)</string>
+    <string name="cheat_unlock_all">Unlock all businesses with managers</string>
+    <string name="cheat_trigger_event">Trigger a random event now</string>
+
+    <!-- Events: %1$s = business, stock or company name; %2$s = money amount -->
+    <string name="event_cant_afford">You need %1$s cash to accept.</string>
+    <string name="event_accept">Accept</string>
+    <string name="event_decline">Decline</string>
+    <string name="event_refuse">Refuse</string>
+    <string name="event_ignore">Ignore</string>
+    <string name="event_pay">Pay</string>
+    <string name="event_rival_title">A rival makes an offer</string>
+    <string name="event_rival_body">A competitor offers %2$s for 10%% of your %1$s units. Refuse, and your proud staff there will double profits for 3 minutes.</string>
+    <string name="event_rival_accept">Sell</string>
+    <string name="event_viral_title">Going viral?</string>
+    <string name="event_viral_body">A post about %1$s is taking off. Pay %2$s to promote it and triple all profits for 2 minutes?</string>
+    <string name="event_viral_accept">Promote</string>
+    <string name="event_shortage_title">Supply shortage</string>
+    <string name="event_shortage_body">Suppliers for your %1$s are running low. Pay %2$s to secure stock, or its profits halve for 3 minutes.</string>
+    <string name="event_shortage_decline">Risk it</string>
+    <string name="event_audit_title">Tax audit</string>
+    <string name="event_audit_body">Auditors are looking at %1$s and offer to settle for %2$s. Fight it, and you might pay a bigger fine, or nothing at all.</string>
+    <string name="event_audit_accept">Settle</string>
+    <string name="event_audit_decline">Fight it</string>
+    <string name="event_tip_title">Hot stock tip</string>
+    <string name="event_tip_body">A contact says %1$s is about to move. Invest %2$s in its shares right now?</string>
+    <string name="event_tip_accept">Invest</string>
+    <string name="event_gala_title">Charity gala</string>
+    <string name="event_gala_body">Sponsor a city charity gala in the name of %1$s for %2$s? The good press would lift all profits by 50%% for 5 minutes.</string>
+    <string name="event_gala_accept">Sponsor</string>
+    <string name="event_strike_title">Staff walkout</string>
+    <string name="event_strike_body">Workers at your %1$s ask for a %2$s bonus. Refuse, and it stops for 1 minute.</string>
+    <string name="event_strike_accept">Pay bonus</string>
+    <string name="event_pitch_title">Investor offer</string>
+    <string name="event_pitch_body">An investor offers %1$s %2$s in cash now, in return for 20%% of all profits for 5 minutes.</string>
+    <string name="outcome_rival_sold">Deal done. You received %1$s.</string>
+    <string name="outcome_rival_morale">Your staff are fired up: double profits there for 3 minutes!</string>
+    <string name="outcome_viral_boost">It’s viral! Triple profits for 2 minutes.</string>
+    <string name="outcome_shortage_avoided">Supplies secured.</string>
+    <string name="outcome_shortage_hit">The shortage hits: half profits there for 3 minutes.</string>
+    <string name="outcome_audit_settled">Audit settled for %1$s.</string>
+    <string name="outcome_audit_fined">Ouch. The auditors fined you %1$s.</string>
+    <string name="outcome_audit_cleared">The auditors found nothing. No fine!</string>
+    <string name="outcome_tip_win">The tip paid off: the stock jumped 20%!</string>
+    <string name="outcome_tip_loss">Bad tip: the stock fell 15%.</string>
+    <string name="outcome_gala_boost">Great press! +50% profits for 5 minutes.</string>
+    <string name="outcome_strike_settled">Bonus paid. Everyone is back to work.</string>
+    <string name="outcome_strike_hit">The walkout begins: that business stops for 1 minute.</string>
+    <string name="outcome_pitch_taken">You received %1$s. The investor takes 20%% for 5 minutes.</string>
+    <string name="outcome_declined">You passed on it.</string>
+    <!-- Rich List -->
+    <string name="rich_list_title">Rich List</string>
+    <string name="rich_list_menu_subtitle">You are #%1$d of %2$d</string>
+    <string name="rich_list_best_net_worth">Your best net worth</string>
+    <string name="rich_list_rank">Rich List position: #%1$d of %2$d</string>
+    <string name="rich_list_you_are">You are: %1$s</string>
+    <string name="rich_list_richer_than">You are now richer than %1$s%% of people on Earth.</string>
+    <string name="rich_list_next_milestone">Next: %1$s at %2$s</string>
+    <string name="rich_list_could_buy">Your net worth could buy</string>
+    <string name="rich_list_next_to_beat">Next to beat</string>
+    <string name="rich_list_need_more">Worth about %1$s. You need %2$s more.</string>
+    <string name="rich_list_people">The list</string>
+    <string name="rich_list_you">You</string>
+    <string name="cd_passed">Passed</string>
+    <string name="rich_list_disclaimer">Net worth figures are approximate public estimates as of %1$s. This game is not affiliated with or endorsed by anyone listed.</string>
+    <string name="rich_list_fictional_note">Everyone on this list is a fictional character.</string>
+    <string name="notice_passed">You just passed %1$s!</string>
+    <plurals name="notice_passed_others">
+        <item quantity="one">(and %d other)</item>
+        <item quantity="other">(and %d others)</item>
+    </plurals>
+    <string name="notice_wealth_milestone">New milestone: %1$s.</string>
+    <string name="records_title">Your records</string>
+    <string name="records_best_net_worth">Best net worth</string>
+    <string name="records_runs">Empires sold</string>
+    <string name="records_run_line">%1$d. Run %2$s (%3$s)</string>
+    <string name="records_offline">Online leaderboards are not available in this version.</string>
+
+    <!-- Real-world wealth milestones -->
+    <string name="wm_top_half">Wealthier than half the world</string>
+    <string name="wm_top_10_percent">Global top 10%</string>
+    <string name="wm_average_household">Average household</string>
+    <string name="wm_millionaire">Millionaire</string>
+    <string name="wm_top_1_percent">Global top 1%</string>
+    <string name="wm_decamillionaire">Decamillionaire</string>
+    <string name="wm_ultra_high_net_worth">Ultra-high-net-worth</string>
+    <string name="wm_centimillionaire">Centimillionaire</string>
+    <string name="wm_billionaire">Billionaire</string>
+    <string name="wm_top_100">Top 100 richest people</string>
+    <string name="wm_top_10">Top 10 richest people</string>
+    <string name="wm_richest_person">Richest person on Earth</string>
+
+    <!-- Fun comparisons: %s is a formatted number -->
+    <plurals name="cmp_new_car">
+        <item quantity="one">%s new car</item>
+        <item quantity="other">%s new cars</item>
+    </plurals>
+    <plurals name="cmp_average_house">
+        <item quantity="one">%s average house</item>
+        <item quantity="other">%s average houses</item>
+    </plurals>
+    <plurals name="cmp_private_jet">
+        <item quantity="one">%s private jet</item>
+        <item quantity="other">%s private jets</item>
+    </plurals>
+    <plurals name="cmp_superyacht">
+        <item quantity="one">%s superyacht</item>
+        <item quantity="other">%s superyachts</item>
+    </plurals>
+    <plurals name="cmp_sports_team">
+        <item quantity="one">%s top pro sports team</item>
+        <item quantity="other">%s top pro sports teams</item>
+    </plurals>
+    <plurals name="cmp_country_budget">
+        <item quantity="one">%s year of a small country’s budget</item>
+        <item quantity="other">%s years of a small country’s budget</item>
+    </plurals>
+
+    <!-- Fictional tycoons (fallback list) -->
+    <string name="tycoon_bakery">Founder, artisan bakery chain</string>
+    <string name="tycoon_food_trucks">Owner, food truck fleet</string>
+    <string name="tycoon_coffee">Founder, coffee house chain</string>
+    <string name="tycoon_car_washes">Owner, car wash network</string>
+    <string name="tycoon_gyms">Founder, fitness club chain</string>
+    <string name="tycoon_hotels">Owner, boutique hotels</string>
+    <string name="tycoon_apps">Founder, mobile app studio</string>
+    <string name="tycoon_shipping">Chairman, shipping line</string>
+    <string name="tycoon_property">Property developer</string>
+    <string name="tycoon_airline">Founder, regional airline</string>
+    <string name="tycoon_energy">Chair, energy company</string>
+    <string name="tycoon_chips">Co-founder, chip designer</string>
+    <string name="tycoon_fund">Founder, investment fund</string>
+    <string name="tycoon_robots">Founder, robotics company</string>
+    <string name="tycoon_space">Founder, space launch company</string>
+    <string name="tycoon_everything">Owner of a little bit of everything</string>
+
+    <!-- Photos, My Empire, credits -->
+    <string name="close">Close</string>
+    <string name="lux_cat_island">Islands</string>
+    <string name="lux_palm_cay_island">Palm Cay Island</string>
+    <string name="lux_coral_atoll">Coral Atoll</string>
+    <string name="empire_title">My Empire</string>
+    <string name="empire_banner">Your showcase: %1$d prized possessions</string>
+    <string name="empire_summary">%1$d prized possessions worth %2$s</string>
+    <string name="empire_bonus">Luxury bonus: +%1$s%% revenue</string>
+    <string name="empire_section_count">%1$s (%2$d)</string>
+    <string name="empire_empty_slot">Nothing here yet. Buy one in Assets or Invest.</string>
+    <string name="empire_homes">Your homes</string>
+    <string name="empire_garage">Your garage</string>
+    <string name="empire_marina">At the marina</string>
+    <string name="empire_hangar">In the hangar</string>
+    <string name="empire_islands">Your islands</string>
+    <string name="empire_art">Art collection</string>
+    <string name="empire_rare">Rare finds</string>
+    <string name="empire_property">Property portfolio</string>
+    <string name="empire_businesses">Your businesses</string>
+    <string name="credits_title">Photo credits</string>
+    <string name="credits_intro">Photos used in this game, with their authors and licences.</string>
+    <string name="credits_empty_title">No photos yet</string>
+    <string name="credits_empty_body">This build uses placeholder art. Credits for each photo will appear here.</string>
+    <string name="credits_author">By %1$s</string>
+    <string name="credits_licence">Licence: %1$s</string>
+    <string name="credits_modified">Changes: %1$s</string>
+    <string name="rich_list_worth">Net worth about %1$s</string>
+    <string name="rich_list_gap_ahead">%1$s ahead of you</string>
+    <string name="rich_list_gap_behind">You are %1$s ahead</string>
+    <string name="rich_list_photo_credit">Photo: %1$s, %2$s</string>
+</resources>

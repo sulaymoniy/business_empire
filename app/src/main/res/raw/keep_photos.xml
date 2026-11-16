@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Photos are looked up by name at runtime (ui/art/GameArt.kt), so the release resource shrinker
+     can't see they are used. Keep everything that follows the photo naming scheme in ART_LIST.md. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/biz_*,@drawable/prop_*,@drawable/lux_*,@drawable/stock_*,@drawable/person_*" />
